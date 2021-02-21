@@ -1,0 +1,62 @@
+.main{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    background-color: peachpuff;
+}
+
+/* main right is the profile picture container*/
+.main-right{
+    width: 50%;
+    padding: 5%;
+}
+/*main left is the name */
+.main-left{
+    width: auto;
+    padding-top: 25%;
+}
+.title{
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-text{
+    max-width: 50%;
+    text-align: center;
+    padding-left: 25%;
+}
+.text{
+    margin: auto;
+}
+img{
+    max-width: 100%;
+    float: right;
+    animation-name: showImage;
+    animation-duration: 4s;
+}
+
+@keyframes showImage {
+    8%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#learn-text{
+    visibility: hidden;
+}
+#why-text{
+    visibility: hidden;
+}
+button{
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+
